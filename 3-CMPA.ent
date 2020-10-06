@@ -1,5 +1,5 @@
 ﻿[CSPro Application]
-Version=CSPro 7.3
+Version=CSPro 7.4
 Label=CMPA
 Name=CMPA
 AppType=DataEntry
@@ -17,6 +17,7 @@ ShowFieldLabels=No
 ShowErrorMessageNumbers=No
 ComboBoxShowOnlyDiscreteValues=Yes
 ParadataCollection=AllEvents
+ParadataRecordInitialPropertyValues=Yes
 ParadataDeviceStateMinutes=5
 [AppCode]
 File=.\3-CMPA.ent.apc

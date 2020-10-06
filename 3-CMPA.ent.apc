@@ -25,9 +25,13 @@ if gps(read,5) then // a successful attempt at a read, for up tofive seconds
 	LONG = gps(longitude);
 else
      errmsg("GPS signal could not be acquired");
+	 
 
 endif;
 gps(close);}
+{
+test
+}
 PROC CH_RS_PAR
 POSTPROC
 IF $ = 1 THEN
