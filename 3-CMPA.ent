@@ -1,0 +1,33 @@
+﻿[CSPro Application]
+Version=CSPro 7.3
+Label=CMPA
+Name=CMPA
+AppType=DataEntry
+OperatorID=No
+PartialSave=Yes
+CAPI=Yes
+CAPIFont1=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont2=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont1Color=0
+CAPIFont2Color=16711680
+CreateListing=No
+CreateLog=No
+DisplayCodesAlongsideLabels=Yes
+ShowFieldLabels=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[AppCode]
+File=.\3-CMPA.ent.apc
+[Message]
+File=.\3-CMPA.ent.mgf
+[Help]
+File=.\3-CMPA.ent.qsf
+[Forms]
+File=.\3-CMPA.fmf
+[Dictionary Types]
+Dict-Type=.\Dictionary\3-CMPA.dcf,Input,.\3-CMPA.fmf
+[Mapping]
+LatitudeItem=LAT
+LongitudeItem=LONG

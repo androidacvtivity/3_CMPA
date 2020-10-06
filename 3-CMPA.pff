@@ -1,0 +1,8 @@
+﻿[Run Information]
+Version=CSPro 7.4
+AppType=Entry
+
+[Files]
+Application=.\3-CMPA.ent
+InputData=.\CSDB\data.csdb
+Paradata=.\3-CMPA.cslog

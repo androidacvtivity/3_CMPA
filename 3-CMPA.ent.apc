@@ -1,0 +1,156 @@
+﻿PROC GLOBAL
+FUNCTION mapClicked(map myMap)
+  myMap.clearMarkers();    
+  LAT = mymap.getLastClickLatitude();
+  LONG = mymap.getLastClickLongitude();
+  myMap.addMarker(mymap.getLastClickLatitude(), mymap.getLastClickLongitude());
+END;
+FUNCTION closeMap(map myMap)
+  myMap.hide();
+END;
+
+PROC CMPA_FF
+
+PROC LAT
+PREPROC
+map m;
+m.setBaseMap(satellite);
+m.setOnClick(mapClicked(m));
+m.addTextButton("Close Map", closeMap(m));
+m.show();
+{gps(open);
+gps(open,3,4800); 
+if gps(read,5) then // a successful attempt at a read, for up tofive seconds
+    LAT = gps(latitude);
+	LONG = gps(longitude);
+else
+     errmsg("GPS signal could not be acquired");
+
+endif;
+gps(close);}
+PROC CH_RS_PAR
+POSTPROC
+IF $ = 1 THEN
+  SKIP TO CH1000;
+ENDIF;
+PROC RF_CODE
+POSTPROC
+endlevel;
+PROC EXP_CODE
+IF EXP_CODE = 9999 THEN
+  ENDGROUP;
+ENDIF;
+NUMERIC curRow = CUROCC();
+ for numeric occurrence_number in CH1000 do
+		if(occurrence_number <> curRow) then
+         if EXP_CODE(curRow) = EXP_CODE(occurrence_number) then
+            errmsg(00001, $);
+			errmsg(00002);
+			REENTER;
+         endif;
+		endif;
+
+     endfor;
+PROC EXP_SUM
+IF $ < 0 THEN
+  ERRMSG("You cannot insert negative values");
+  REENTER;
+ENDIF;
+PROC INCOME_CODE
+IF INCOME_CODE = 9999 THEN
+  ENDGROUP;
+ENDIF;
+NUMERIC curRow = CUROCC();
+ for numeric occurrence_number in CH2000 do
+		if(occurrence_number <> curRow) then
+         if INCOME_CODE(curRow) = INCOME_CODE(occurrence_number) then
+            errmsg("Code=%d can't be repeated ", $);
+			REENTER;
+         endif;
+		endif;
+
+     endfor;
+PROC INCOME_SUM
+IF $ < 0 THEN
+  ERRMSG("You cannot insert negative values");
+  REENTER;
+ENDIF;
+PROC USE_CODE
+IF USE_CODE = 9999 THEN
+  ENDGROUP;
+ENDIF;
+NUMERIC curRow = CUROCC();
+ for numeric occurrence_number in CH3000 do
+		if(occurrence_number <> curRow) then
+         if USE_CODE(curRow) = USE_CODE(occurrence_number) then
+            errmsg("Code=%d can't be repeated ", $);
+			REENTER;
+         endif;
+		endif;
+
+     endfor;
+PROC START_PERIOD
+IF $ < 0 THEN
+  ERRMSG("You cannot insert negative values");
+  REENTER;
+ENDIF;
+PROC INCOME_HOSE
+IF $ < 0 THEN
+  ERRMSG("You cannot insert negative values");
+  REENTER;
+ENDIF;
+PROC INCOME_RENT
+IF $ < 0 THEN
+  ERRMSG("You cannot insert negative values");
+  REENTER;
+ENDIF;
+PROC INCOME_BUY_OTHER
+IF $ < 0 THEN
+  ERRMSG("You cannot insert negative values");
+  REENTER;
+ENDIF;
+PROC OUT_SELLING
+IF $ < 0 THEN
+  ERRMSG("You cannot insert negative values");
+  REENTER;
+ENDIF;
+PROC OUT_RENT
+IF $ < 0 THEN
+  ERRMSG("You cannot insert negative values");
+  REENTER;
+ENDIF;
+PROC OUT_SEEDS
+IF $ < 0 THEN
+  ERRMSG("You cannot insert negative values");
+  REENTER;
+ENDIF;
+PROC OUT_FEED
+IF $ < 0 THEN
+  ERRMSG("You cannot insert negative values");
+  REENTER;
+ENDIF;
+PROC OUT_PROCESSING
+IF $ < 0 THEN
+  ERRMSG("You cannot insert negative values");
+  REENTER;
+ENDIF;
+PROC OUT_PERS_CONS
+IF $ < 0 THEN
+  ERRMSG("You cannot insert negative values");
+  REENTER;
+ENDIF;
+PROC OUT_LOSS
+IF $ < 0 THEN
+  ERRMSG("You cannot insert negative values");
+  REENTER;
+ENDIF;
+PROC OUT_CONSUMTION
+IF $ < 0 THEN
+  ERRMSG("You cannot insert negative values");
+  REENTER;
+ENDIF;
+PROC END_PERIOD
+IF $ < 0 THEN
+  ERRMSG("You cannot insert negative values");
+  REENTER;
+ENDIF;

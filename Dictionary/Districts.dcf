@@ -1,0 +1,35 @@
+﻿[Dictionary]
+Version=CSPro 7.3
+Label=Districts
+Name=DISTRICTS_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Level]
+Label=Districts Level
+Name=DISTRICTS_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Districts Identification
+Name=DISTRICTS_ID
+Start=2
+Len=7
+ZeroFill=Yes
+
+[Item]
+Label=Districts Name
+Name=DISTRICTS_NAME
+Start=9
+Len=20
+DataType=Alpha
+
+[Record]
+Label=Districts Record
+Name=DISTRICTS_REC
+RecordTypeValue='1'
+RecordLen=28

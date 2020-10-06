@@ -1,0 +1,341 @@
+﻿[CAPI QUESTIONS]
+Version=CSPro 7.3
+
+[LANGUAGES]
+EN=English
+RO=Română
+RU=Русский
+
+[QUESTION]
+Field=CMPA_DICT.CH_RS_PAR
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Do you want to participate on this interview\par
+EN=}
+RU={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\froman\fprq2\fcharset204 Times New Roman;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+RU={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+RU=\pard\f0\fs24\'d1\'e0\'e3\'eb\'e0\'f1\'ed\'fb \'eb\'e8 \'e2\'fb \'f3\'f7\'e0\'f1\'f2\'e2\'ee\'e2\'e0\'f2\'fc\f1\lang1033\par
+RU=}
+RO={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset204 Times New Roman;}}
+RO={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+RO=\pard\f0\fs24\lang1033 Doriti sa participati la acest interviu\f1\lang1049\par
+RO=}
+
+[QUESTION]
+Field=CMPA_DICT.CUATM
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Territorial code\par
+EN=}
+RO={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+RO=\pard\cf1\fs24\lang1033 Codul teritorial\par
+RO=}
+RU={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\froman\fprq2\fcharset204 Times New Roman;}{\f1\fnil\fcharset0 Arial;}}
+RU={\colortbl ;\red0\green0\blue0;}
+RU={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+RU=\pard\f0\fs24\'ca\'ee\'e4 \'f2\'e5\'f0\'f0\'e8\'f2\'ee\'f0\'e8\'e8\cf1\f1\lang1033\par
+RU=}
+
+[QUESTION]
+Field=CMPA_DICT.EMPLOYES
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Number of employees\par
+EN=}
+
+[QUESTION]
+Field=CMPA_DICT.END_PERIOD
+Occurrences=1:24
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\froman\fprq2\fcharset204 Times New Roman;}{\f1\froman\fprq2\fcharset238 Times New Roman CE;}{\f2\fswiss\fcharset0 Calibri;}}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\widctlpar\li-57\ri-57\f0\fs20 Existent la sf\f1\lang1048\'eer\'baitu\f0\lang1049 l perioadei de raport\f2\lang1033\par
+EN=}
+
+[QUESTION]
+Field=CMPA_DICT.EXP_CODE
+Occurrences=1:26
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Consumtion Item\par
+EN=}
+RO={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\froman\fprq2\fcharset238 Times New Roman CE;}{\f1\fnil\fcharset0 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+RO=\pard\b\f0\fs22\lang1048 Consumurile \'bai cheltuielile privind produc\'feia agricol\'e3\cf1\b0\f1\fs24\lang1033\par
+RO=}
+RU={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\froman\fprq2\fcharset204 Times New Roman;}}
+RU={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+RU=\pard\b\f0\fs24\'c7\'e0\'f2\'f0\'e0\'f2\'fb \'e8 \'f0\'e0\'f1\'f5\'ee\'e4\'fb \'ed\'e0 \'f1\'e5\'eb\'fc\'f1\'ea\'ee\'f5\'ee\'e7\'ff\'e9\'f1\'f2\'e2\'e5\'ed\'ed\'ee\'e5 \'ef\'f0\'ee\'e8\'e7\'e2\'ee\'e4\'f1\'f2\'e2\'ee \b0\par
+RU=}
+
+[QUESTION]
+Field=CMPA_DICT.EXP_SUM
+Occurrences=1:26
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Sum (lei)\par
+EN=}
+
+[QUESTION]
+Field=CMPA_DICT.FAMILY_MEMBER
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Family member\par
+EN=}
+
+[QUESTION]
+Field=CMPA_DICT.HH_NUMBER
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Household number\par
+EN=}
+RO={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\froman\fprq2\fcharset238 Times New Roman CE;}}
+RO={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+RO=\pard\widctlpar\f0\fs24\lang1048 Num\'e3rul gospod\'e3riei\par
+RO=}
+RU={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\froman\fprq2\fcharset204 Times New Roman;}{\f1\froman\fprq2\fcharset238 Times New Roman CE;}}
+RU={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+RU=\pard\f0\fs24\'cd\'ee\'ec\'e5\'f0 \'f5\'ee\'e7\'ff\'e9\'f1\'f2\'e2\'e0\f1\lang1048\par
+RU=}
+
+[QUESTION]
+Field=CMPA_DICT.INCOME_BUY_OTHER
+Occurrences=1:24
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fswiss\fcharset0 Calibri;}{\f1\froman\fprq2\fcharset238 Times New Roman CE;}}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\f0\fs20\lang1033 Intrari, \f1\lang1048 Procurat \'bai alte intr\'e3ri\f0\lang1033\par
+EN=}
+
+[QUESTION]
+Field=CMPA_DICT.INCOME_CODE
+Occurrences=1:11
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Incomes Item\par
+EN=}
+RO={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\froman\fprq2\fcharset238 Times New Roman CE;}{\f1\froman\fprq2\fcharset204 Times New Roman;}}
+RO={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+RO=\pard\b\f0\fs22\lang1048 Venituri aferente activit\'e3\'feii\f1\lang1049  agricole\f0\lang1048\par
+RO=}
+RU={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\froman\fprq2\fcharset204 Times New Roman;}}
+RU={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+RU=\pard\b\f0\fs24\'c4\'ee\'f5\'ee\'e4\'fb, \'f1\'e2\'ff\'e7\'e0\'ed\'ed\'fb\'e5 \'f1 \'f1\'e5\'eb\'fc\'f1\'ea\'ee\'f5\'ee\'e7\'ff\'e9\'f1\'f2\'e2\'e5\'ed\'ed\'ee\'e9 \'e4\'e5\'ff\'f2\'e5\'eb\'fc\'ed\'ee\'f1\'f2\'fc\'fe \par
+RU=}
+
+[QUESTION]
+Field=CMPA_DICT.INCOME_HOSE
+Occurrences=1:24
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fswiss\fcharset0 Calibri;}{\f1\froman\fprq2\fcharset238 Times New Roman CE;}}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\f0\fs20\lang1033 Intrari, \f1\lang1048 Produs \'een gospod\'e3ria propie\f0\lang1033\par
+EN=}
+
+[QUESTION]
+Field=CMPA_DICT.INCOME_RENT
+Occurrences=1:24
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fswiss\fcharset0 Calibri;}{\f1\froman\fprq2\fcharset238 Times New Roman CE;}}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\widctlpar\li113\ri113\f0\fs20\lang1033 Intrari, \f1\lang1048 Primit \'een contul  pl\'e3\'feii pentru arenda terenurilor\f0\lang1033\par
+EN=}
+
+[QUESTION]
+Field=CMPA_DICT.INCOME_SUM
+Occurrences=1:11
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Sum (person)\par
+EN=}
+
+[QUESTION]
+Field=CMPA_DICT.LAT
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Latitude\par
+EN=}
+
+[QUESTION]
+Field=CMPA_DICT.LONG
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Longitude\par
+EN=}
+
+[QUESTION]
+Field=CMPA_DICT.MONTH
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Month\par
+EN=}
+RU={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset204 Arial;}}
+RU={\colortbl ;\red0\green0\blue0;}
+RU={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+RU=\pard\cf1\f0\fs24\'cc\'e5\'f1\'ff\'f6\par
+RU=}
+RO={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset204 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+RO=\pard\cf1\fs24\lang1033 Luna\f1\lang1049\par
+RO=}
+
+[QUESTION]
+Field=CMPA_DICT.OUT_CONSUMTION
+Occurrences=1:24
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fswiss\fcharset0 Calibri;}{\f1\froman\fprq2\fcharset204 Times New Roman;}}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\widctlpar\li113\ri113\f0\fs20\lang1033 Iesiri, \f1\lang1049 alte consumuri\f0\lang1033\par
+EN=}
+
+[QUESTION]
+Field=CMPA_DICT.OUT_FEED
+Occurrences=1:24
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fswiss\fcharset0 Calibri;}{\f1\froman\fprq2\fcharset204 Times New Roman;}{\f2\froman\fprq2\fcharset238 Times New Roman CE;}}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\f0\fs20\lang1033 Iesiri, \f1\lang1049 furaj pen\f2\lang1048 tru animale \'bai p\'e3s\'e3ri\f0\lang1033\par
+EN=}
+
+[QUESTION]
+Field=CMPA_DICT.OUT_LOSS
+Occurrences=1:24
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fswiss\fcharset0 Calibri;}{\f1\froman\fprq2\fcharset204 Times New Roman;}}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\widctlpar\li113\ri113\f0\fs20\lang1033 Iesiri, \f1\lang1049 pierderi\f0\lang1033\par
+EN=}
+
+[QUESTION]
+Field=CMPA_DICT.OUT_PERS_CONS
+Occurrences=1:24
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fswiss\fcharset0 Calibri;}{\f1\froman\fprq2\fcharset204 Times New Roman;}}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\f0\fs20\lang1033 Iesiri, \f1\lang1049 consum personal\f0\lang1033\par
+EN=}
+
+[QUESTION]
+Field=CMPA_DICT.OUT_PROCESSING
+Occurrences=1:24
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fswiss\fcharset0 Calibri;}{\f1\froman\fprq2\fcharset204 Times New Roman;}}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\widctlpar\li113\ri113\f0\fs20\lang1033 Iesiri, \f1\lang1049 utilizat pentru prelucrare\f0\lang1033\par
+EN=}
+
+[QUESTION]
+Field=CMPA_DICT.OUT_RENT
+Occurrences=1:24
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fswiss\fcharset0 Calibri;}{\f1\froman\fprq2\fcharset238 Times New Roman CE;}}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\widctlpar\li120\ri120\sl-200\slmult0\f0\fs20\lang1033 Iesiri, \f1\lang1048 Eliberat \'een contul pl\'e3\'feii pentru arenda  terenurilor\f0\lang1033\par
+EN=}
+
+[QUESTION]
+Field=CMPA_DICT.OUT_SEEDS
+Occurrences=1:24
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fswiss\fcharset0 Calibri;}{\f1\froman\fprq2\fcharset238 Times New Roman CE;}}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\widctlpar\li113\ri113\f0\fs20\lang1033 Iesiri, \f1\lang1048 pentru semin\'fee\f0\lang1033\par
+EN=}
+
+[QUESTION]
+Field=CMPA_DICT.OUT_SELLING
+Occurrences=1:24
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fswiss\fcharset0 Calibri;}{\f1\froman\fprq2\fcharset238 Times New Roman CE;}{\f2\froman\fprq2\fcharset204 Times New Roman;}}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\widctlpar\li113\ri113\f0\fs20\lang1033 Iesiri, \f1\lang1048 V\'eendut-tot\f2\lang1049 al\f0\lang1033\par
+EN=}
+
+[QUESTION]
+Field=CMPA_DICT.RF_CODE
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Non-response sheet\par
+EN=}
+RO={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+RO=\pard\cf1\fs24\lang1033 Cauza de non raspuns\par
+RO=}
+RU={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\froman\fprq2\fcharset204 Times New Roman;}}
+RU={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+RU=\pard\f0\fs24\'cf\'f0\'e8\'f7\'e8\'ed\'e0 \'ee\'f2\'f1\'f3\'f2\'f1\'f2\'e2\'e8\'ff \'ee\'f2\'e2\'e5\'f2\'e0\par
+RU=}
+
+[QUESTION]
+Field=CMPA_DICT.START_PERIOD
+Occurrences=1:24
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\froman\fprq2\fcharset238 Times New Roman CE;}{\f1\froman\fprq2\fcharset204 Times New Roman;}{\f2\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\widctlpar\f0\fs20\lang1048 Existent la \'eenceputul \f1\lang1049 perioadei de raport\cf1\f2\fs24\lang1033\par
+EN=}
+
+[QUESTION]
+Field=CMPA_DICT.TYPE_HH
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Type of household\par
+EN=}
+RU={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\froman\fprq2\fcharset204 Times New Roman;}}
+RU={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+RU=\pard\f0\fs24\'c2\'e8\'e4 \'f5\'ee\'e7\'ff\'e9\'f1\'f2\'e2\'e0\par
+RU=}
+RO={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\froman\fprq2\fcharset238 Times New Roman CE;}{\f1\froman\fprq2\fcharset204 Times New Roman;}}
+RO={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+RO=\pard\widctlpar\f0\fs24\lang1048 Tipul gospod\'e3riei\f1\lang1049\par
+RO=}
+
+[QUESTION]
+Field=CMPA_DICT.USE_CODE
+Occurrences=1:24
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fswiss\fcharset0 Calibri;}{\f1\froman\fprq2\fcharset238 Times New Roman CE;}}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\f0\fs20\lang1033 Code\f1\lang1048\par
+EN=}
+RO={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\froman\fprq2\fcharset204 Times New Roman;}{\f1\froman\fprq2\fcharset238 Times New Roman CE;}}
+RO={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+RO=\pard\b\f0\fs22 Utilizarea produ\f1\lang1048 c\'feiei agricole  \par
+RO=}
+RU={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\froman\fprq2\fcharset204 Times New Roman;}}
+RU={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+RU=\pard\b\f0\fs22\'c8\'f1\'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'ed\'e8\'e5 \'f1\'e5\'eb\'fc\'f1\'ea\'ee\'f5\'ee\'e7\'ff\'e9\'f1\'f2\'e2\'e5\'ed\'ed\'ee\'e9 \'ef\'f0\'ee\'e4\'f3\'ea\'f6\'e8\'e8 \fs24\par
+RU=}
+
+[QUESTION]
+Field=CMPA_DICT.YEAR
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset204 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Year\f1\lang1049\par
+EN=}
+RO={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+RO=\pard\cf1\fs24\lang1033 Anul\par
+RO=}
+RU={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset204 Arial;}{\f1\fnil\fcharset0 Arial;}}
+RU={\colortbl ;\red0\green0\blue0;}
+RU={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+RU=\pard\cf1\f0\fs24\'c3\'ee\'e4\f1\lang1033\par
+RU=}
+
+[HELP]
+Field=CMPA_DICT.YEAR
+EN={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17763}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 This is the presentation years?\par
+EN=}
+
